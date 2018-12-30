@@ -1,0 +1,11 @@
+amethyst
+android-sdk
+firefox
+flash-player
+google-chrome
+java8
+silverlight
+spotify
+sublime-text
+the-unarchiver
+vlc
