@@ -52,8 +52,7 @@ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugi
 
 
 echo 'Installation des apps : utilitaires.'
-brew tap homebrew/science
-brew cask install google-drive  dropbox  slack hyperdock sublime-text osxfuse java webstorm clion
+brew cask install google-backup-and-sync  dropbox  slack hyperdock sublime-text osxfuse webstorm clion visual-studio-code iterm2
 install "FastScripts"
 install "MacTracker"
 
@@ -86,7 +85,6 @@ brew cask install install "docker"
 
 echo 'Installation des apps : communication.'
 brew cask install google-chrome firefox
-brew cask install chromecast --appdir=/Applications && defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 brew cask install silverlight flash-player --appdir=/Applications
 
 
